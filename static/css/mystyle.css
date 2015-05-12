@@ -1,0 +1,19 @@
+.width{
+	width: 90%;
+	margin-left: 5%;
+
+}
+.colornh{
+	background-color: #FB6600;
+}
+.hr{
+	width:800px;
+	height:1px;
+	background-color:#777777;
+}
+.hding{
+	font-size: 20px;
+}
+.counter{
+	color: grey;
+}
