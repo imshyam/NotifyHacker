@@ -19,10 +19,11 @@
       <div class="navbar-fixed">
         <!-- Dropdown Structure -->
       <ul id="dropdown1" class="dropdown-content">
-        <li><a href="#!">Home</a></li>
+        <li><a href="#!" style="background-color:#EEE">Home</a></li>
+        <li class="divider"></li>
         <li><a href="#!">New</a></li>
         <li><a href="#!">Threads</a></li>
-        <li class="divider">Comments</li>
+        <li><a href="#!">Comments</a></li>
         <li><a href="#!">Show</a></li>
         <li><a href="#!">Ask</a></li>
         <li><a href="#!">Jobs</a></li>
@@ -31,7 +32,7 @@
         <div class="nav-wrapper colornh">
           <a href="#!"><img src="../static/img/ic_home.png" alt="Notify Hacker" style="width:64px;height:64px"></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="user.html">User</a></li>
+            <li><a href="user.html">User (karma)</a></li>
             <li><a href="logout.html">Logout</a></li>
             <!-- Dropdown Trigger -->
             <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Home<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
@@ -44,15 +45,27 @@
     <!--List Items-->
     <ul class="collapsible popout" data-collapsible="accordion">
       <li>
-        <div class="collapsible-header hding"><span class="counter">1.</span> First</div>
+        <div class="collapsible-header hding">
+          <span class="counter">1.</span> First 
+          <a><i style="background-color:#EEE" title="upvote" class="mdi-hardware-keyboard-arrow-up right"></i></a>
+          <a><i class="mdi-hardware-keyboard-arrow-right right"></i></a>
+        </div>
         <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
       </li>
       <li>
-        <div class="collapsible-header hding"><span class="counter">2.</span> Second</div>
+        <div class="collapsible-header hding" style="margin-top:5px">
+          <span class="counter">2.</span> Second 
+          <a><i style="background-color:#EEE" title="upvote" class="mdi-hardware-keyboard-arrow-up right"></i></a>
+          <a><i class="mdi-hardware-keyboard-arrow-right right"></i></a>
+        </div>
         <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
       </li>
       <li>
-        <div class="collapsible-header hding"><span class="counter">3.</span> Third</div>
+        <div class="collapsible-header hding" style="margin-top:5px">
+          <span class="counter">3.</span> Third 
+          <a><i style="background-color:#EEE" title="upvote" class="mdi-hardware-keyboard-arrow-up right"></i></a>
+          <a><i class="mdi-hardware-keyboard-arrow-right right"></i></a>
+        </div>
         <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
       </li>
     </ul>
