@@ -1,0 +1,2 @@
+module NhHelper
+end
